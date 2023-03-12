@@ -1,0 +1,100 @@
+body{
+    background-image: url('https://media.architecturaldigest.com/photos/60d5e6657d0bcd2fb0bfe9cc/master/w_1920%2Cc_limit/Tennis%2520III%2520.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-size: 100% 100%;
+    margin:0;
+}
+
+table,
+td,
+th {
+    margin-top: 30px;
+  border: 1px solid #ddd;
+  text-align: left;
+  opacity: 0.95;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+ul {
+  z-index: +3;
+            height:auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(101, 101, 101);
+    opacity: 0.94;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #5e8e7c;
+  }
+  .active:hover {
+    background-color: #1cce8d;
+  }
+  .container {
+    position: relative;  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer{
+    background-color: black;
+    height: 15vh;
+    color: white;
+    font-size: 5vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+   
+  }
+  .bottom-right img{
+    height: 5vh;
+    width: auto;
+  }
+  .tennisball{
+    width: 257px;
+  height: 180px;
+  background-image: url('https://o.remove.bg/downloads/8296f442-a52f-4065-97d7-1287516a9f88/images-removebg-preview.png');
+  position: relative;
+  animation: ball 5s linear 2s infinite alternate;
+
+}
+
+@keyframes ball {
+  from {left: 0px;}
+  to {left: 80%;}
+}
+  

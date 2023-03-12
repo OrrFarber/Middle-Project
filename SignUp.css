@@ -1,0 +1,133 @@
+
+body{
+background-image: url('https://www.ft.com/__origami/service/image/v2/images/raw/https://d1e00ek4ebabms.cloudfront.net/production/3328878e-9f85-4874-839f-3a57134e6808.jpg?source=next&fit=scale-down&quality=highest&width=1440');
+background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+ height:100vh ;
+}
+ul {
+  z-index: +1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(101, 101, 101);
+    opacity: 0.94;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #5e8e7c;
+  }
+  .active:hover {
+    background-color: #1cce8d;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid green;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+  .bottomright {
+  position: absolute;
+  right: 0;
+  }
+  .bottomleft {
+    position: absolute;
+    left: 0;
+   
+    }
+  
+  .img1 { 
+    width: 30vw;
+    height: auto; 
+    
+  }
+  .container {
+    position: relative;  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer{
+    margin-top: 40vh;
+    background-color: black;
+    height: 15vh;
+    color: white;
+    font-size: 5vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+   
+  }
+  .bottom-right img{
+    height: 5vh;
+    width: auto;
+  }
+
+  .signUp-form{
+    background-color: white;
+    border-radius: 8vh;
+    opacity: 0.9;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .input{
+    padding: 1rem;
+    margin: 0.1rem;
+  }
